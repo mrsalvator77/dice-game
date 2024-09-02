@@ -1,0 +1,89 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+  text-align: center;
+}
+.main label{
+  font-size: 80px;
+  padding-bottom: 25px;
+}
+
+
+.button-1 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  outline: none;
+  overflow: visible;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: 40px;
+  width: 140px;
+}
+.button-1:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.button-1:main,
+.button-1:focus {
+  user-select: auto;
+}
+.button-1:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+.button-1:disabled {
+  cursor: auto;
+}
+.button-1:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.dynamic-div {
+  margin-bottom: 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  border-radius: 4px;
+  display: flex;
+  gap: 240px;
+  padding-left: 20px;
+  margin-left: 38%;
+  width: 320px;
+  height: 10px;
+  background-color: #1899D6; 
+}
+
